@@ -1,0 +1,1 @@
+bool find_value(int* array, int size, int value);
