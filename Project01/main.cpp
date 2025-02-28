@@ -1,6 +1,7 @@
 #include "util.h"
 #include "line_search_alghorithm.h"
 #define BUF 100
+#include "binary_search_algorithm.h"
 
 int main() {
 
@@ -17,16 +18,16 @@ int main() {
 	init(array, size, -20, 50);
 	cout << "Array: " << convert(array, size) << endl;
 
-	init(array, size, -20, 50);
-	cout << "Array: " << convert(array,size) << endl;
-
-	string msg = find_value(array, size, value) ? "Yes" : "No";
+	/*string msg = find_value(array, size, value) ? "Yes" : "No";*/
+	string msg = binary_find_value(array, size, value) ? "Yes" : "No";
 
 	cout << "Answer: " << msg << endl;
 
 	cout << "Frist value index is: " << find_first_value_index(array, size, value) << endl;
 
 	cout << "Last value index is: " << find_last_value_index(array, size, value) << endl;
+
+	cout << "Count of value is: " << count_value(array, size, value) << endl;
 
 	return 0;
 }

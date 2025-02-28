@@ -139,11 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binnary_search_algorithm.cpp" />
     <ClCompile Include="line_search_alghorithm.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="util.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="binary_search_algorithm.h" />
     <ClInclude Include="line_search_alghorithm.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>
