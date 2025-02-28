@@ -24,5 +24,7 @@ int main() {
 
 	cout << "Answer: " << msg << endl;
 
+	cout << "Frist value index is: " << find_first_value_index(array, size, value) << endl;
+
 	return 0;
 }
