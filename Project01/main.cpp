@@ -5,11 +5,14 @@
 
 int main() {
 
-	int array[BUF];
-	int size;
+	//int array[BUF];
+	//int size;
 
-	cout << "Imput size of array: ";
-	cin >> size;
+	//cout << "Imput size of array: ";
+	//cin >> size;
+
+	int array[] = { 1, 3, 6 ,8, 9, 12, 15, 23, 26, 56 };
+	int size = 10;
 
 	int value;
 	cout << "Imput find value: ";
